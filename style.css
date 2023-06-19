@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+#main-nav {
+    background-color: transparent;
+}
+
+section {
+    height: 100vh;
+}
+
+
+#Accueil {
+    background: url('image/backgroundaccueil.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.custom-col{
+    margin-top: 25%;
+}
+
+i{
+    color: black;
+}
+
+img {
+    filter: grayscale(1);
+}
+
+
+.img-hero{
+    height: auto;
+}
+
+.spacing {
+    margin-top: 10%;
+}
+
+.block {
+    height: 3rem;
+    width: 6rem;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
